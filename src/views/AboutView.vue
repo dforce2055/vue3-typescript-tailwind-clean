@@ -10,6 +10,11 @@
         <h1 class="text-dark-green-500">
           probando!
         </h1>
+        <button 
+          class="btn text-gray-100 bg-dark-green-500 hover:bg-dark-green-600 transition-colors"
+        >
+          Test
+        </button>
         <div class="2xl:w-1/3 lg:2/3 md:w-2/3 p-4 mx-auto">
           <div class="border border-gray-200 p-6 rounded-lg bg-white">
             <div 
