@@ -46,11 +46,11 @@ module.exports = {
       'ignoreWhenEmpty': true,
       'ignores': ['pre', 'textarea']
     }],
-    'vue/static-class-names-order': ['warn'],
     'vue/no-duplicate-attributes': ['error', {
       'allowCoexistClass': true,
       'allowCoexistStyle': true
     }],
+    'vue/first-attribute-linebreak': ['off'],
     'vue/max-len': ['warn', {
       'code': 90,
       'template': 80,
