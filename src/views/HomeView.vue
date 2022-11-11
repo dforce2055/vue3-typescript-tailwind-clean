@@ -3,7 +3,7 @@
     class="bg-gradient-to-r from-blue-400 to-indigo-500
     text-gray-100 overflow-hidden
       flex items-center justify-center p-4
-      shadow-sm h-screen container px-5 py-24 mx-auto"
+      shadow-sm h-screen container px-5 py-24 mx-auto max-w-screen-2xl"
   >
     <ShapesBgAnimated />
     <SliderOptionsAnimated 
@@ -30,7 +30,7 @@ export default defineComponent({
   }),
   methods: {
     onSelected(payload: unknown) {
-      console.log('selected', payload)
+      // console.log('selected', payload)
     }
   }
 });

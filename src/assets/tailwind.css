@@ -1,15 +1,12 @@
+/* https://tailwindcss.com/docs/configuration#using-multiple-configurations */
+/* @config "../../tailwind.config.js"; */
+
+
 @tailwind base;
 
 @tailwind components;
 
 @tailwind utilities;
-
-@layer base {
-  * {
-    --tw-backdrop-sepia:  ;
-    --will-be-deleted: ; 
-  }
-}
 
 @layer utilities {
   .animation-delay-2000 {
