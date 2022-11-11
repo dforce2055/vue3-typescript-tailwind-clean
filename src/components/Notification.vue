@@ -65,10 +65,14 @@
                   Shooting Stars
                 </h2>
                 <p class="leading-relaxed text-base">
-                  Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. 
+                  Blue bottle crucifix vinyl post-ironic four dollar toast 
+                  vegan taxidermy. 
                   Gastropub indxgo juice poutine.
                 </p>
-                <a class="mt-3 text-blue-500 inline-flex items-center cursor-pointer">
+                <a 
+                  class="mt-3 text-blue-500 inline-flex 
+                  items-center cursor-pointer"
+                >
                   Learn More
                   <svg
                     fill="none"

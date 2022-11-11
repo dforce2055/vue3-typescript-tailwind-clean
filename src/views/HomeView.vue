@@ -26,7 +26,7 @@ export default defineComponent({
   data: () => ({
   }),
   methods: {
-    onSelected(payload: any) {
+    onSelected(payload: unknown) {
       console.log('selected', payload)
     }
   }

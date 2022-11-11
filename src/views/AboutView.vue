@@ -26,8 +26,9 @@
       <div class="flex">
         <div class="2xl:w-1/3 lg:2/3 md:w-2/3 p-4 mx-auto">
           <div class="border border-gray-200 p-6 rounded-lg bg-white">
-            <div class="w-10 h-10 inline-flex items-center justify-center rounded-full 
-              bg-sky-100 text-sky-500 mb-4"
+            <div 
+              class="w-10 h-10 inline-flex items-center justify-center 
+                rounded-full bg-sky-100 text-sky-500 mb-4"
             >
               <svg 
                 fill="none"
@@ -45,7 +46,8 @@
               Shooting Stars
             </h2>
             <p class="leading-relaxed text-base">
-              Fingerstache flexitarian street art 8-bit waist co, subway tile poke farm.
+              Fingerstache flexitarian street art 8-bit waist co, 
+              subway tile poke farm.
             </p>
           </div>
         </div>
