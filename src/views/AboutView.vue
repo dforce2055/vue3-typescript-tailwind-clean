@@ -1,27 +1,10 @@
 <template>
   <section
-    class="bg-gray-50 min-h-screen
-    flex items-center justify-center px-4
+    class="bg-gray-50 min-h-screen overflow-hidden
+    flex items-center justify-center px-4 
     "
   >
-    <div class="absolute max-w-g">
-      <!-- shapes -->
-      <div 
-        class="absolute top-0 -left-4 w-72 h-72 
-        bg-purple-300 rounded-full mix-blend-multiply 
-        filter blur-xl opacity-50 animate-blob"
-      />
-      <div 
-        class="absolute top-0 -right-4 w-72 h-72 
-        bg-yellow-300 rounded-full mix-blend-multiply
-        filter blur-xl opacity-50 animate-blob animation-delay-4000"
-      />
-      <div 
-        class="absolute -bottom-8 left-28 w-72 h-72 
-        bg-pink-300 rounded-full mix-blend-multiply 
-        filter blur-xl opacity-50 animate-blob animation-delay-2000"
-      />
-    </div>
+    <ShapesBgAnimated />
     <div class="container mx-auto opacity-100">
       <div class="flex">
         <div class="2xl:w-1/3 lg:2/3 md:w-2/3 p-4 mx-auto">
@@ -57,8 +40,10 @@
 </template>
 
 <script lang="ts">
+import ShapesBgAnimated from '@/components/ShapesBgAnimated.vue';
 import { defineComponent } from 'vue';
-export default defineComponent({
 
+export default defineComponent({
+  components: { ShapesBgAnimated }
 })
 </script>
